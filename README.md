@@ -11,9 +11,13 @@ public User(String firstName, String lastName, String email,
 
 However, you encounter challenges:
 
-Registration forms: It's cumbersome to ensure users enter all fields in the correct order, leading to errors and frustration.
-Optional fields: Not all customers provide complete information, but the constructor forces them to.
-Data consistency: Changes to user profiles after registration can cause unexpected issues due to mutable fields.
+• Registration forms: It's cumbersome to ensure users enter all fields in the correct order, leading to errors and frustration.
+
+• Optional fields: Not all customers provide complete information, but the constructor forces them to.
+
+• Data consistency: Changes to user profiles after registration can cause unexpected issues due to mutable fields.
+
+
 Implement solution using the Builder Pattern to address the issue.
 
 ===== Problem Scenario Ends here =====
@@ -25,7 +29,7 @@ Your solution should include
 3. Source codes solution
 
 
-# Class Diagram
+# UML Diagram
 
 ![Blank diagram (11)](https://github.com/BabyleneRodriguez/softEng2_LabAss1_builderPattern/assets/142875371/4648f99d-65ee-48aa-9cf3-a94d9d7786a1)
 
